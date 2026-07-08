@@ -1,0 +1,13 @@
+Bug found:
+1. Missing import in main.py.
+2. Missing calculation in food_order.py.
+3. Program accepted invalid price and quantity.
+
+Fix:
+1. Imported calculate_total from food_order.
+2. Added formula unit_price * quantity.
+3. Added validation for invalid price and invalid quantity.
+
+Testing:
+Used pytest to test normal totals and invalid inputs.
+All tests passed.
